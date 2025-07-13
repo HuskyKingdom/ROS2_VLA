@@ -1,0 +1,38 @@
+running egg_info
+creating ../../build/physicsVLA_node/physicsVLA_node.egg-info
+writing ../../build/physicsVLA_node/physicsVLA_node.egg-info/PKG-INFO
+writing dependency_links to ../../build/physicsVLA_node/physicsVLA_node.egg-info/dependency_links.txt
+writing entry points to ../../build/physicsVLA_node/physicsVLA_node.egg-info/entry_points.txt
+writing requirements to ../../build/physicsVLA_node/physicsVLA_node.egg-info/requires.txt
+writing top-level names to ../../build/physicsVLA_node/physicsVLA_node.egg-info/top_level.txt
+writing manifest file '../../build/physicsVLA_node/physicsVLA_node.egg-info/SOURCES.txt'
+reading manifest file '../../build/physicsVLA_node/physicsVLA_node.egg-info/SOURCES.txt'
+writing manifest file '../../build/physicsVLA_node/physicsVLA_node.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/yuhangsong/Desktop/works/ROS2_VLA/build/physicsVLA_node/build
+creating /home/yuhangsong/Desktop/works/ROS2_VLA/build/physicsVLA_node/build/lib
+creating /home/yuhangsong/Desktop/works/ROS2_VLA/build/physicsVLA_node/build/lib/physicsVLA_node
+copying physicsVLA_node/vla_node.py -> /home/yuhangsong/Desktop/works/ROS2_VLA/build/physicsVLA_node/build/lib/physicsVLA_node
+copying physicsVLA_node/vla_inferencer.py -> /home/yuhangsong/Desktop/works/ROS2_VLA/build/physicsVLA_node/build/lib/physicsVLA_node
+copying physicsVLA_node/__init__.py -> /home/yuhangsong/Desktop/works/ROS2_VLA/build/physicsVLA_node/build/lib/physicsVLA_node
+running install
+running install_lib
+creating /home/yuhangsong/Desktop/works/ROS2_VLA/install/lib/python3.10/site-packages/physicsVLA_node
+copying /home/yuhangsong/Desktop/works/ROS2_VLA/build/physicsVLA_node/build/lib/physicsVLA_node/vla_node.py -> /home/yuhangsong/Desktop/works/ROS2_VLA/install/lib/python3.10/site-packages/physicsVLA_node
+copying /home/yuhangsong/Desktop/works/ROS2_VLA/build/physicsVLA_node/build/lib/physicsVLA_node/vla_inferencer.py -> /home/yuhangsong/Desktop/works/ROS2_VLA/install/lib/python3.10/site-packages/physicsVLA_node
+copying /home/yuhangsong/Desktop/works/ROS2_VLA/build/physicsVLA_node/build/lib/physicsVLA_node/__init__.py -> /home/yuhangsong/Desktop/works/ROS2_VLA/install/lib/python3.10/site-packages/physicsVLA_node
+byte-compiling /home/yuhangsong/Desktop/works/ROS2_VLA/install/lib/python3.10/site-packages/physicsVLA_node/vla_node.py to vla_node.cpython-310.pyc
+byte-compiling /home/yuhangsong/Desktop/works/ROS2_VLA/install/lib/python3.10/site-packages/physicsVLA_node/vla_inferencer.py to vla_inferencer.cpython-310.pyc
+byte-compiling /home/yuhangsong/Desktop/works/ROS2_VLA/install/lib/python3.10/site-packages/physicsVLA_node/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/yuhangsong/Desktop/works/ROS2_VLA/install/share/ament_index
+creating /home/yuhangsong/Desktop/works/ROS2_VLA/install/share/ament_index/resource_index
+creating /home/yuhangsong/Desktop/works/ROS2_VLA/install/share/ament_index/resource_index/packages
+copying resource/physicsVLA_node -> /home/yuhangsong/Desktop/works/ROS2_VLA/install/share/ament_index/resource_index/packages
+copying package.xml -> /home/yuhangsong/Desktop/works/ROS2_VLA/install/share/physicsVLA_node
+running install_egg_info
+Copying ../../build/physicsVLA_node/physicsVLA_node.egg-info to /home/yuhangsong/Desktop/works/ROS2_VLA/install/lib/python3.10/site-packages/physicsVLA_node-0.0.0-py3.10.egg-info
+running install_scripts
+Installing control_node script to /home/yuhangsong/Desktop/works/ROS2_VLA/install/lib/physicsVLA_node
+writing list of installed files to '/home/yuhangsong/Desktop/works/ROS2_VLA/build/physicsVLA_node/install.log'

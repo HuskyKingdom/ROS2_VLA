@@ -1,0 +1,21 @@
+[0.457s] Invoking command in '/home/yuhangsong/Desktop/works/ROS2_VLA/src/physicsVLA_node': CONDA_PROMPT_MODIFIER=(vla) PYTHONPATH=/home/yuhangsong/Desktop/works/ROS2_VLA/build/physicsVLA_node/prefix_override:/home/yuhangsong/Desktop/works/ROS2_VLA/install/physicsVLA_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/physicsVLA_node build --build-base /home/yuhangsong/Desktop/works/ROS2_VLA/build/physicsVLA_node/build install --record /home/yuhangsong/Desktop/works/ROS2_VLA/build/physicsVLA_node/install.log --single-version-externally-managed
+[0.632s] running egg_info
+[0.632s] writing ../../build/physicsVLA_node/physicsVLA_node.egg-info/PKG-INFO
+[0.632s] writing dependency_links to ../../build/physicsVLA_node/physicsVLA_node.egg-info/dependency_links.txt
+[0.632s] writing entry points to ../../build/physicsVLA_node/physicsVLA_node.egg-info/entry_points.txt
+[0.633s] writing requirements to ../../build/physicsVLA_node/physicsVLA_node.egg-info/requires.txt
+[0.633s] writing top-level names to ../../build/physicsVLA_node/physicsVLA_node.egg-info/top_level.txt
+[0.634s] reading manifest file '../../build/physicsVLA_node/physicsVLA_node.egg-info/SOURCES.txt'
+[0.634s] writing manifest file '../../build/physicsVLA_node/physicsVLA_node.egg-info/SOURCES.txt'
+[0.634s] running build
+[0.634s] running build_py
+[0.635s] running install
+[0.635s] running install_lib
+[0.636s] running install_data
+[0.636s] running install_egg_info
+[0.637s] removing '/home/yuhangsong/Desktop/works/ROS2_VLA/install/physicsVLA_node/lib/python3.10/site-packages/physicsVLA_node-0.0.0-py3.10.egg-info' (and everything under it)
+[0.637s] Copying ../../build/physicsVLA_node/physicsVLA_node.egg-info to /home/yuhangsong/Desktop/works/ROS2_VLA/install/physicsVLA_node/lib/python3.10/site-packages/physicsVLA_node-0.0.0-py3.10.egg-info
+[0.638s] running install_scripts
+[0.650s] Installing control_node script to /home/yuhangsong/Desktop/works/ROS2_VLA/install/physicsVLA_node/lib/physicsVLA_node
+[0.650s] writing list of installed files to '/home/yuhangsong/Desktop/works/ROS2_VLA/build/physicsVLA_node/install.log'
+[0.666s] Invoked command in '/home/yuhangsong/Desktop/works/ROS2_VLA/src/physicsVLA_node' returned '0': CONDA_PROMPT_MODIFIER=(vla) PYTHONPATH=/home/yuhangsong/Desktop/works/ROS2_VLA/build/physicsVLA_node/prefix_override:/home/yuhangsong/Desktop/works/ROS2_VLA/install/physicsVLA_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/physicsVLA_node build --build-base /home/yuhangsong/Desktop/works/ROS2_VLA/build/physicsVLA_node/build install --record /home/yuhangsong/Desktop/works/ROS2_VLA/build/physicsVLA_node/install.log --single-version-externally-managed

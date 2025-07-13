@@ -1,0 +1,550 @@
+[0.359s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'ROS2_VLA']
+[0.359s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['ROS2_VLA'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f3c333bc070>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f3c33583ac0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f3c33583ac0>>)
+[0.388s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.388s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.388s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.388s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.388s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.388s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.388s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yuhangsong/Desktop/works/ROS2_VLA'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.388s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.389s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.397s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs) by extension 'ignore'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs) by extension 'ignore_ament_install'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs) by extensions ['colcon_pkg']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs) by extension 'colcon_pkg'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs) by extensions ['colcon_meta']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs) by extension 'colcon_meta'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs) by extensions ['ros']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs) by extension 'ros'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs) by extensions ['cmake', 'python']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs) by extension 'cmake'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs) by extension 'python'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs) by extensions ['python_setup_py']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs) by extension 'python_setup_py'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments) by extension 'ignore'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments) by extension 'ignore_ament_install'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments) by extensions ['colcon_pkg']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments) by extension 'colcon_pkg'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments) by extensions ['colcon_meta']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments) by extension 'colcon_meta'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments) by extensions ['ros']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments) by extension 'ros'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments) by extensions ['cmake', 'python']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments) by extension 'cmake'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments) by extension 'python'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments) by extensions ['python_setup_py']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments) by extension 'python_setup_py'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot) by extensions ['ignore', 'ignore_ament_install']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot) by extension 'ignore'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot) by extension 'ignore_ament_install'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot) by extensions ['colcon_pkg']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot) by extension 'colcon_pkg'
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot) by extensions ['colcon_meta']
+[0.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot) by extension 'colcon_meta'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot) by extensions ['ros']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot) by extension 'ros'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot) by extensions ['cmake', 'python']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot) by extension 'cmake'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot) by extension 'python'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot) by extensions ['python_setup_py']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot) by extension 'python_setup_py'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot/aloha) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot/aloha) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot/aloha) by extension 'ignore_ament_install'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot/aloha) by extensions ['colcon_pkg']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot/aloha) by extension 'colcon_pkg'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot/aloha) by extensions ['colcon_meta']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot/aloha) by extension 'colcon_meta'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot/aloha) by extensions ['ros']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot/aloha) by extension 'ros'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot/aloha) by extensions ['cmake', 'python']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot/aloha) by extension 'cmake'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot/aloha) by extension 'python'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot/aloha) by extensions ['python_setup_py']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot/aloha) by extension 'python_setup_py'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot/libero) by extensions ['ignore', 'ignore_ament_install']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot/libero) by extension 'ignore'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot/libero) by extension 'ignore_ament_install'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot/libero) by extensions ['colcon_pkg']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot/libero) by extension 'colcon_pkg'
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot/libero) by extensions ['colcon_meta']
+[0.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot/libero) by extension 'colcon_meta'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot/libero) by extensions ['ros']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot/libero) by extension 'ros'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot/libero) by extensions ['cmake', 'python']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot/libero) by extension 'cmake'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot/libero) by extension 'python'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot/libero) by extensions ['python_setup_py']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/experiments/robot/libero) by extension 'python_setup_py'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/openvla_oft.egg-info) by extensions ['ignore', 'ignore_ament_install']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/openvla_oft.egg-info) by extension 'ignore'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/openvla_oft.egg-info) by extension 'ignore_ament_install'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/openvla_oft.egg-info) by extensions ['colcon_pkg']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/openvla_oft.egg-info) by extension 'colcon_pkg'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/openvla_oft.egg-info) by extensions ['colcon_meta']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/openvla_oft.egg-info) by extension 'colcon_meta'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/openvla_oft.egg-info) by extensions ['ros']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/openvla_oft.egg-info) by extension 'ros'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/openvla_oft.egg-info) by extensions ['cmake', 'python']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/openvla_oft.egg-info) by extension 'cmake'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/openvla_oft.egg-info) by extension 'python'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/openvla_oft.egg-info) by extensions ['python_setup_py']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/openvla_oft.egg-info) by extension 'python_setup_py'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic) by extensions ['ignore', 'ignore_ament_install']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic) by extension 'ignore'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic) by extension 'ignore_ament_install'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic) by extensions ['colcon_pkg']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic) by extension 'colcon_pkg'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic) by extensions ['colcon_meta']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic) by extension 'colcon_meta'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic) by extensions ['ros']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic) by extension 'ros'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic) by extensions ['cmake', 'python']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic) by extension 'cmake'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic) by extension 'python'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic) by extensions ['python_setup_py']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic) by extension 'python_setup_py'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/conf) by extensions ['ignore', 'ignore_ament_install']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/conf) by extension 'ignore'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/conf) by extension 'ignore_ament_install'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/conf) by extensions ['colcon_pkg']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/conf) by extension 'colcon_pkg'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/conf) by extensions ['colcon_meta']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/conf) by extension 'colcon_meta'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/conf) by extensions ['ros']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/conf) by extension 'ros'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/conf) by extensions ['cmake', 'python']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/conf) by extension 'cmake'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/conf) by extension 'python'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/conf) by extensions ['python_setup_py']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/conf) by extension 'python_setup_py'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/extern) by extensions ['ignore', 'ignore_ament_install']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/extern) by extension 'ignore'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/extern) by extension 'ignore_ament_install'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/extern) by extensions ['colcon_pkg']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/extern) by extension 'colcon_pkg'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/extern) by extensions ['colcon_meta']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/extern) by extension 'colcon_meta'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/extern) by extensions ['ros']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/extern) by extension 'ros'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/extern) by extensions ['cmake', 'python']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/extern) by extension 'cmake'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/extern) by extension 'python'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/extern) by extensions ['python_setup_py']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/extern) by extension 'python_setup_py'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/extern/hf) by extensions ['ignore', 'ignore_ament_install']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/extern/hf) by extension 'ignore'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/extern/hf) by extension 'ignore_ament_install'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/extern/hf) by extensions ['colcon_pkg']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/extern/hf) by extension 'colcon_pkg'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/extern/hf) by extensions ['colcon_meta']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/extern/hf) by extension 'colcon_meta'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/extern/hf) by extensions ['ros']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/extern/hf) by extension 'ros'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/extern/hf) by extensions ['cmake', 'python']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/extern/hf) by extension 'cmake'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/extern/hf) by extension 'python'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/extern/hf) by extensions ['python_setup_py']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/extern/hf) by extension 'python_setup_py'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models) by extensions ['ignore', 'ignore_ament_install']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models) by extension 'ignore'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models) by extension 'ignore_ament_install'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models) by extensions ['colcon_pkg']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models) by extension 'colcon_pkg'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models) by extensions ['colcon_meta']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models) by extension 'colcon_meta'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models) by extensions ['ros']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models) by extension 'ros'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models) by extensions ['cmake', 'python']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models) by extension 'cmake'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models) by extension 'python'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models) by extensions ['python_setup_py']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models) by extension 'python_setup_py'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones) by extensions ['ignore', 'ignore_ament_install']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones) by extension 'ignore'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones) by extension 'ignore_ament_install'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones) by extensions ['colcon_pkg']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones) by extension 'colcon_pkg'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones) by extensions ['colcon_meta']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones) by extension 'colcon_meta'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones) by extensions ['ros']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones) by extension 'ros'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones) by extensions ['cmake', 'python']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones) by extension 'cmake'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones) by extension 'python'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones) by extensions ['python_setup_py']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones) by extension 'python_setup_py'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/llm) by extensions ['ignore', 'ignore_ament_install']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/llm) by extension 'ignore'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/llm) by extension 'ignore_ament_install'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/llm) by extensions ['colcon_pkg']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/llm) by extension 'colcon_pkg'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/llm) by extensions ['colcon_meta']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/llm) by extension 'colcon_meta'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/llm) by extensions ['ros']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/llm) by extension 'ros'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/llm) by extensions ['cmake', 'python']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/llm) by extension 'cmake'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/llm) by extension 'python'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/llm) by extensions ['python_setup_py']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/llm) by extension 'python_setup_py'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/llm/prompting) by extensions ['ignore', 'ignore_ament_install']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/llm/prompting) by extension 'ignore'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/llm/prompting) by extension 'ignore_ament_install'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/llm/prompting) by extensions ['colcon_pkg']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/llm/prompting) by extension 'colcon_pkg'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/llm/prompting) by extensions ['colcon_meta']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/llm/prompting) by extension 'colcon_meta'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/llm/prompting) by extensions ['ros']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/llm/prompting) by extension 'ros'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/llm/prompting) by extensions ['cmake', 'python']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/llm/prompting) by extension 'cmake'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/llm/prompting) by extension 'python'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/llm/prompting) by extensions ['python_setup_py']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/llm/prompting) by extension 'python_setup_py'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/vision) by extensions ['ignore', 'ignore_ament_install']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/vision) by extension 'ignore'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/vision) by extension 'ignore_ament_install'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/vision) by extensions ['colcon_pkg']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/vision) by extension 'colcon_pkg'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/vision) by extensions ['colcon_meta']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/vision) by extension 'colcon_meta'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/vision) by extensions ['ros']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/vision) by extension 'ros'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/vision) by extensions ['cmake', 'python']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/vision) by extension 'cmake'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/vision) by extension 'python'
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/vision) by extensions ['python_setup_py']
+[0.405s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/backbones/vision) by extension 'python_setup_py'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/vlas) by extensions ['ignore', 'ignore_ament_install']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/vlas) by extension 'ignore'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/vlas) by extension 'ignore_ament_install'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/vlas) by extensions ['colcon_pkg']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/vlas) by extension 'colcon_pkg'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/vlas) by extensions ['colcon_meta']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/vlas) by extension 'colcon_meta'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/vlas) by extensions ['ros']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/vlas) by extension 'ros'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/vlas) by extensions ['cmake', 'python']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/vlas) by extension 'cmake'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/vlas) by extension 'python'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/vlas) by extensions ['python_setup_py']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/vlas) by extension 'python_setup_py'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/vlms) by extensions ['ignore', 'ignore_ament_install']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/vlms) by extension 'ignore'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/vlms) by extension 'ignore_ament_install'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/vlms) by extensions ['colcon_pkg']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/vlms) by extension 'colcon_pkg'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/vlms) by extensions ['colcon_meta']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/vlms) by extension 'colcon_meta'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/vlms) by extensions ['ros']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/vlms) by extension 'ros'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/vlms) by extensions ['cmake', 'python']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/vlms) by extension 'cmake'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/vlms) by extension 'python'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/vlms) by extensions ['python_setup_py']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/models/vlms) by extension 'python_setup_py'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/overwatch) by extensions ['ignore', 'ignore_ament_install']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/overwatch) by extension 'ignore'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/overwatch) by extension 'ignore_ament_install'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/overwatch) by extensions ['colcon_pkg']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/overwatch) by extension 'colcon_pkg'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/overwatch) by extensions ['colcon_meta']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/overwatch) by extension 'colcon_meta'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/overwatch) by extensions ['ros']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/overwatch) by extension 'ros'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/overwatch) by extensions ['cmake', 'python']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/overwatch) by extension 'cmake'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/overwatch) by extension 'python'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/overwatch) by extensions ['python_setup_py']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/overwatch) by extension 'python_setup_py'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/preprocessing) by extensions ['ignore', 'ignore_ament_install']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/preprocessing) by extension 'ignore'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/preprocessing) by extension 'ignore_ament_install'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/preprocessing) by extensions ['colcon_pkg']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/preprocessing) by extension 'colcon_pkg'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/preprocessing) by extensions ['colcon_meta']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/preprocessing) by extension 'colcon_meta'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/preprocessing) by extensions ['ros']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/preprocessing) by extension 'ros'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/preprocessing) by extensions ['cmake', 'python']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/preprocessing) by extension 'cmake'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/preprocessing) by extension 'python'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/preprocessing) by extensions ['python_setup_py']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/preprocessing) by extension 'python_setup_py'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/preprocessing/datasets) by extensions ['ignore', 'ignore_ament_install']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/preprocessing/datasets) by extension 'ignore'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/preprocessing/datasets) by extension 'ignore_ament_install'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/preprocessing/datasets) by extensions ['colcon_pkg']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/preprocessing/datasets) by extension 'colcon_pkg'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/preprocessing/datasets) by extensions ['colcon_meta']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/preprocessing/datasets) by extension 'colcon_meta'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/preprocessing/datasets) by extensions ['ros']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/preprocessing/datasets) by extension 'ros'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/preprocessing/datasets) by extensions ['cmake', 'python']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/preprocessing/datasets) by extension 'cmake'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/preprocessing/datasets) by extension 'python'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/preprocessing/datasets) by extensions ['python_setup_py']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/preprocessing/datasets) by extension 'python_setup_py'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/training) by extensions ['ignore', 'ignore_ament_install']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/training) by extension 'ignore'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/training) by extension 'ignore_ament_install'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/training) by extensions ['colcon_pkg']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/training) by extension 'colcon_pkg'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/training) by extensions ['colcon_meta']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/training) by extension 'colcon_meta'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/training) by extensions ['ros']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/training) by extension 'ros'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/training) by extensions ['cmake', 'python']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/training) by extension 'cmake'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/training) by extension 'python'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/training) by extensions ['python_setup_py']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/training) by extension 'python_setup_py'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/training/strategies) by extensions ['ignore', 'ignore_ament_install']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/training/strategies) by extension 'ignore'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/training/strategies) by extension 'ignore_ament_install'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/training/strategies) by extensions ['colcon_pkg']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/training/strategies) by extension 'colcon_pkg'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/training/strategies) by extensions ['colcon_meta']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/training/strategies) by extension 'colcon_meta'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/training/strategies) by extensions ['ros']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/training/strategies) by extension 'ros'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/training/strategies) by extensions ['cmake', 'python']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/training/strategies) by extension 'cmake'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/training/strategies) by extension 'python'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/training/strategies) by extensions ['python_setup_py']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/training/strategies) by extension 'python_setup_py'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/util) by extensions ['ignore', 'ignore_ament_install']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/util) by extension 'ignore'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/util) by extension 'ignore_ament_install'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/util) by extensions ['colcon_pkg']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/util) by extension 'colcon_pkg'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/util) by extensions ['colcon_meta']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/util) by extension 'colcon_meta'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/util) by extensions ['ros']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/util) by extension 'ros'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/util) by extensions ['cmake', 'python']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/util) by extension 'cmake'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/util) by extension 'python'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/util) by extensions ['python_setup_py']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/util) by extension 'python_setup_py'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla) by extensions ['ignore', 'ignore_ament_install']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla) by extension 'ignore'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla) by extension 'ignore_ament_install'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla) by extensions ['colcon_pkg']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla) by extension 'colcon_pkg'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla) by extensions ['colcon_meta']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla) by extension 'colcon_meta'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla) by extensions ['ros']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla) by extension 'ros'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla) by extensions ['cmake', 'python']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla) by extension 'cmake'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla) by extension 'python'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla) by extensions ['python_setup_py']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla) by extension 'python_setup_py'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets) by extensions ['ignore', 'ignore_ament_install']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets) by extension 'ignore'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets) by extension 'ignore_ament_install'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets) by extensions ['colcon_pkg']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets) by extension 'colcon_pkg'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets) by extensions ['colcon_meta']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets) by extension 'colcon_meta'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets) by extensions ['ros']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets) by extension 'ros'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets) by extensions ['cmake', 'python']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets) by extension 'cmake'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets) by extension 'python'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets) by extensions ['python_setup_py']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets) by extension 'python_setup_py'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds) by extensions ['ignore', 'ignore_ament_install']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds) by extension 'ignore'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds) by extension 'ignore_ament_install'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds) by extensions ['colcon_pkg']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds) by extension 'colcon_pkg'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds) by extensions ['colcon_meta']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds) by extension 'colcon_meta'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds) by extensions ['ros']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds) by extension 'ros'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds) by extensions ['cmake', 'python']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds) by extension 'cmake'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds) by extension 'python'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds) by extensions ['python_setup_py']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds) by extension 'python_setup_py'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/oxe) by extensions ['ignore', 'ignore_ament_install']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/oxe) by extension 'ignore'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/oxe) by extension 'ignore_ament_install'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/oxe) by extensions ['colcon_pkg']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/oxe) by extension 'colcon_pkg'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/oxe) by extensions ['colcon_meta']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/oxe) by extension 'colcon_meta'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/oxe) by extensions ['ros']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/oxe) by extension 'ros'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/oxe) by extensions ['cmake', 'python']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/oxe) by extension 'cmake'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/oxe) by extension 'python'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/oxe) by extensions ['python_setup_py']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/oxe) by extension 'python_setup_py'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/oxe/utils) by extensions ['ignore', 'ignore_ament_install']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/oxe/utils) by extension 'ignore'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/oxe/utils) by extension 'ignore_ament_install'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/oxe/utils) by extensions ['colcon_pkg']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/oxe/utils) by extension 'colcon_pkg'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/oxe/utils) by extensions ['colcon_meta']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/oxe/utils) by extension 'colcon_meta'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/oxe/utils) by extensions ['ros']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/oxe/utils) by extension 'ros'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/oxe/utils) by extensions ['cmake', 'python']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/oxe/utils) by extension 'cmake'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/oxe/utils) by extension 'python'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/oxe/utils) by extensions ['python_setup_py']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/oxe/utils) by extension 'python_setup_py'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/utils) by extensions ['ignore', 'ignore_ament_install']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/utils) by extension 'ignore'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/utils) by extension 'ignore_ament_install'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/utils) by extensions ['colcon_pkg']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/utils) by extension 'colcon_pkg'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/utils) by extensions ['colcon_meta']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/utils) by extension 'colcon_meta'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/utils) by extensions ['ros']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/utils) by extension 'ros'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/utils) by extensions ['cmake', 'python']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/utils) by extension 'cmake'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/utils) by extension 'python'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/utils) by extensions ['python_setup_py']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/prismatic/vla/datasets/rlds/utils) by extension 'python_setup_py'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/scripts) by extension 'ignore'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/scripts) by extension 'ignore_ament_install'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/scripts) by extensions ['colcon_pkg']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/scripts) by extension 'colcon_pkg'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/scripts) by extensions ['colcon_meta']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/scripts) by extension 'colcon_meta'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/scripts) by extensions ['ros']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/scripts) by extension 'ros'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/scripts) by extensions ['cmake', 'python']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/scripts) by extension 'cmake'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/scripts) by extension 'python'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/scripts) by extensions ['python_setup_py']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/scripts) by extension 'python_setup_py'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/scripts/extern) by extensions ['ignore', 'ignore_ament_install']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/scripts/extern) by extension 'ignore'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/scripts/extern) by extension 'ignore_ament_install'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/scripts/extern) by extensions ['colcon_pkg']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/scripts/extern) by extension 'colcon_pkg'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/scripts/extern) by extensions ['colcon_meta']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/scripts/extern) by extension 'colcon_meta'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/scripts/extern) by extensions ['ros']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/scripts/extern) by extension 'ros'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/scripts/extern) by extensions ['cmake', 'python']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/scripts/extern) by extension 'cmake'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/scripts/extern) by extension 'python'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/scripts/extern) by extensions ['python_setup_py']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/scripts/extern) by extension 'python_setup_py'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/vla-scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/vla-scripts) by extension 'ignore'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/vla-scripts) by extension 'ignore_ament_install'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/vla-scripts) by extensions ['colcon_pkg']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/vla-scripts) by extension 'colcon_pkg'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/vla-scripts) by extensions ['colcon_meta']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/vla-scripts) by extension 'colcon_meta'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/vla-scripts) by extensions ['ros']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/vla-scripts) by extension 'ros'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/vla-scripts) by extensions ['cmake', 'python']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/vla-scripts) by extension 'cmake'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/vla-scripts) by extension 'python'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/vla-scripts) by extensions ['python_setup_py']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/vla-scripts) by extension 'python_setup_py'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/vla-scripts/extern) by extensions ['ignore', 'ignore_ament_install']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/vla-scripts/extern) by extension 'ignore'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/vla-scripts/extern) by extension 'ignore_ament_install'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/vla-scripts/extern) by extensions ['colcon_pkg']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/vla-scripts/extern) by extension 'colcon_pkg'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/vla-scripts/extern) by extensions ['colcon_meta']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/vla-scripts/extern) by extension 'colcon_meta'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/vla-scripts/extern) by extensions ['ros']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/vla-scripts/extern) by extension 'ros'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/vla-scripts/extern) by extensions ['cmake', 'python']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/vla-scripts/extern) by extension 'cmake'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/vla-scripts/extern) by extension 'python'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/vla-scripts/extern) by extensions ['python_setup_py']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/openvla-oft-yhs/vla-scripts/extern) by extension 'python_setup_py'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/physicsVLA_node) by extensions ['ignore', 'ignore_ament_install']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/physicsVLA_node) by extension 'ignore'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/physicsVLA_node) by extension 'ignore_ament_install'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/physicsVLA_node) by extensions ['colcon_pkg']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/physicsVLA_node) by extension 'colcon_pkg'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/physicsVLA_node) by extensions ['colcon_meta']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/physicsVLA_node) by extension 'colcon_meta'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/physicsVLA_node) by extensions ['ros']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/physicsVLA_node) by extension 'ros'
+[0.417s] DEBUG:colcon.colcon_core.package_identification:Package 'src/physicsVLA_node' with type 'ros.ament_python' and name 'physicsVLA_node'
+[0.417s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.417s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.417s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.417s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.417s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.418s] WARNING:colcon.colcon_core.package_selection:ignoring unknown package 'ROS2_VLA' in --packages-select
+[0.437s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'physicsVLA_node' in 'src/physicsVLA_node'
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.438s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.441s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 387 installed packages in /opt/ros/humble
+[0.443s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.492s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.494s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.494s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.494s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.494s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.494s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.499s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.499s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.499s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.511s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.516s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.517s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yuhangsong/Desktop/works/ROS2_VLA/install/local_setup.ps1'
+[0.518s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yuhangsong/Desktop/works/ROS2_VLA/install/_local_setup_util_ps1.py'
+[0.518s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yuhangsong/Desktop/works/ROS2_VLA/install/setup.ps1'
+[0.520s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yuhangsong/Desktop/works/ROS2_VLA/install/local_setup.sh'
+[0.520s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yuhangsong/Desktop/works/ROS2_VLA/install/_local_setup_util_sh.py'
+[0.520s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yuhangsong/Desktop/works/ROS2_VLA/install/setup.sh'
+[0.521s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yuhangsong/Desktop/works/ROS2_VLA/install/local_setup.bash'
+[0.522s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yuhangsong/Desktop/works/ROS2_VLA/install/setup.bash'
+[0.523s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yuhangsong/Desktop/works/ROS2_VLA/install/local_setup.zsh'
+[0.523s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yuhangsong/Desktop/works/ROS2_VLA/install/setup.zsh'

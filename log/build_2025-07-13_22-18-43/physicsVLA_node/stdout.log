@@ -1,0 +1,16 @@
+running egg_info
+writing manifest file '../../build/physicsVLA_node/physicsVLA_node.egg-info/SOURCES.txt'
+running build
+running build_py
+copying physicsVLA_node/run_libero_eval.py -> /home/yuhangsong/Desktop/works/ROS2_VLA/build/physicsVLA_node/build/lib/physicsVLA_node
+copying physicsVLA_node/vla_inferencer.py -> /home/yuhangsong/Desktop/works/ROS2_VLA/build/physicsVLA_node/build/lib/physicsVLA_node
+running install
+running install_lib
+byte-compiling /home/yuhangsong/Desktop/works/ROS2_VLA/install/physicsVLA_node/lib/python3.10/site-packages/physicsVLA_node/run_libero_eval.py to run_libero_eval.cpython-310.pyc
+byte-compiling /home/yuhangsong/Desktop/works/ROS2_VLA/install/physicsVLA_node/lib/python3.10/site-packages/physicsVLA_node/vla_inferencer.py to vla_inferencer.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/home/yuhangsong/Desktop/works/ROS2_VLA/install/physicsVLA_node/lib/python3.10/site-packages/physicsVLA_node-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/physicsVLA_node/physicsVLA_node.egg-info to /home/yuhangsong/Desktop/works/ROS2_VLA/install/physicsVLA_node/lib/python3.10/site-packages/physicsVLA_node-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/yuhangsong/Desktop/works/ROS2_VLA/build/physicsVLA_node/install.log'
