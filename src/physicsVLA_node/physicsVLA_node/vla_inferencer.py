@@ -82,10 +82,11 @@ class GenerateConfig:
 class VLAController:
     """Wraps the inference pipeline from run_libero_eval as a ROS 2 controller."""
 
-    def __init__(self, task_description: str = None):
+    def __init__(self, task_description: str = None,model_path: str = None):
         # 1) Load & validate config
         self.cfg = GenerateConfig()
-        
+        self.cfg.pretrained_checkpoint = model_path
+
         # 2) Fix randomness for reproducibility
         set_seed_everywhere(self.cfg.seed)
 

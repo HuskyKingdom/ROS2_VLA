@@ -2,8 +2,18 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float32MultiArray
+import argparse
 
 from .vla_inferencer import VLAController
+
+parser = argparse.ArgumentParser(description="Experimental node.")
+
+parser.add_argument('--model_path', type=str, default="")
+parser.add_argument('--instruction', type=str, default="")
+
+args = parser.parse_args()
+
+
 
 class VlaControlNode(Node):
     def __init__(self):
@@ -11,7 +21,7 @@ class VlaControlNode(Node):
         self.get_logger().info("VLA Control Node On")
         self.pub = self.create_publisher(Float32MultiArray, 'vla_action', 10)
         self.timer = self.create_timer(0.05, self.timer_callback)  # 20 Hz
-        self.controller = VLAController()
+        self.controller = VLAController(args.instruction,args.model_path)
 
     def timer_callback(self):
         # retrive obervations
