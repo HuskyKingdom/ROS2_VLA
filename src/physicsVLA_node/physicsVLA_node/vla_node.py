@@ -23,7 +23,7 @@ class VlaControlNode(Node):
 
     def get_observation(self):
         # TODO: subscrib scratch 3 topic
-        return ...
+        return None
 
 def main(args=None):
     rclpy.init(args=args)
